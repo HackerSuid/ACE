@@ -1,10 +1,1 @@
-A multithreaded implementation of HTM in ISO standard C, designed to explicitly AVOID as many programming abstractions as possible.
-  - minimal loop complexity
-  - minimal conditional jumps/execution branches
-  - minimal function calls, especially in loops, rather favoring macros and inlined code
-  - efficient use of cpu L2i/L2d cache, consciously try for hits
-  - minimal GNU extensions, unless perf gains greatly outweigh portability benefit
-
-Libraries and APIs:
-libxml2
-pthreads
+Auto-Cognitive ELF
